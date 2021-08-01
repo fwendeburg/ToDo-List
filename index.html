@@ -1,1 +1,77 @@
-<!doctype html><html lang="en"><head><title>ToDo-List</title><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet"><link href="styles/reset.css" rel="stylesheet"><link href="styles/style.css" rel="stylesheet"></head><body><nav><div class="left-side-nav"><span class="material-icons fs-36">task_alt</span><h1>ToDo-List</h1></div><div class="right-side-nav"><div id="add-task-btn"><span class="material-icons fs-22">add_circle_outline</span><p>New Task</p></div><div class="burger-menu"><div class="burger-btn"></div></div></div></nav><div id="sidebar"><div><div id="add-task-btn-alt"><span class="material-icons">add_circle_outline</span><p>New Task</p></div><h2 class="section-title-mobile">Task Filters</h2><div id="all-tasks" class="task-filter selected"><span class="material-icons">format_list_bulleted</span><p>All tasks</p></div><div id="today-tasks" class="task-filter"><span class="material-icons-outlined">today</span><p>Today</p></div><div id="this-week-tasks" class="task-filter"><span class="material-icons-outlined">date_range</span><p>This week</p></div></div><div class="projects"><h2>Projects</h2><div class="add-project-btn"><span class="material-icons-outlined">note_add</span><p>New Project</p></div></div></div><div class="content"><h3 id="project-name">All tasks</h3></div><footer><p>Made by <a href="https://github.com/fwendeburg">Francisco Wendeburg</a></p></footer><script defer="defer" src="index.bundle.js"></script><script defer="defer" src="Storage.bundle.js"></script><script defer="defer" src="ToDo.bundle.js"></script><script defer="defer" src="Project.bundle.js"></script><script defer="defer" src="Task.bundle.js"></script><script defer="defer" src="UI.bundle.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ToDo-List</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet">
+
+        <link href="styles/reset.css" rel="stylesheet">
+        <link href="styles/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <div class="left-side-nav">
+                <span class="material-icons fs-36">task_alt</span>
+                <h1>ToDo-List</h1>
+            </div>
+
+            <div class="right-side-nav">
+                <div id="add-task-btn">
+                    <span class="material-icons fs-22">add_circle_outline</span>
+                    <p>New Task</p>
+                </div>
+    
+                <div class="burger-menu">
+                    <div class="burger-btn"></div>
+                </div>
+            </div>
+        </nav>
+
+        <div id="sidebar">
+            <div>
+                <div id="add-task-btn-alt">
+                    <span class="material-icons">add_circle_outline</span>
+                    <p>New Task</p>
+                </div>
+
+                <h2 class="section-title-mobile">Task Filters</h2>
+                <div id="all-tasks" class="task-filter selected">
+                    <span class="material-icons">format_list_bulleted</span>
+                    <p>All tasks</p>
+                </div>
+    
+                <div id="today-tasks" class="task-filter">
+                    <span class="material-icons-outlined">today</span>
+                    <p>Today</p>
+                </div>
+    
+                <div id="this-week-tasks" class="task-filter">
+                    <span class="material-icons-outlined">date_range</span>
+                    <p>This week</p>
+                </div>
+            </div>
+
+            <div class="projects">
+                <h2>Projects</h2>
+                <div class="add-project-btn">
+                    <span class="material-icons-outlined">note_add</span>
+                    <p>New Project</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="content">
+            <h3 id="project-name">All tasks</h3>
+        </div>
+        <footer>
+            <p>Made by <a href="https://github.com/fwendeburg">Francisco Wendeburg</a></p>
+        </footer>
+    <script defer src="index.bundle.js"></script><script defer src="Storage.bundle.js"></script><script defer src="ToDo.bundle.js"></script><script defer src="Project.bundle.js"></script><script defer src="Task.bundle.js"></script><script defer src="UI.bundle.js"></script></body>
+</html>
